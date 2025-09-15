@@ -1,0 +1,135 @@
+{
+	"localAssetList":
+	{
+		"22595100":
+		{
+			"bIsActive": false,
+			"contentId": "22595100",
+			"name": "WaitingRoom_1",
+			"packageName": "/Asset/TempImportedAssetDir/WaitingRoom_Plane_003",
+			"creator": "",
+			"assetFileUrl": "https://asset-prod.cdn.overdare.com/assets/world-asset/raw/live/22595100/0/build.zip",
+			"thumbnailUrl": "https://asset-prod.cdn.overdare.com/images/world-asset/raw/live/22595100/thumbnail/9795ec5312b846f5b0d732bfcd2853a6.png",
+			"previewUrl": "https://asset-prod.cdn.overdare.com/images/world-asset/raw/live/22595100/thumbnail/9795ec5312b846f5b0d732bfcd2853a6.png",
+			"createdTime": "2025.09.14-20.14.55",
+			"worldAssetType": "STATIC_MESH"
+		},
+		"22596100":
+		{
+			"bIsActive": false,
+			"contentId": "22596100",
+			"name": "WaitingRoom_3",
+			"packageName": "/Asset/TempImportedAssetDir/WaitingRoom_Plane_002",
+			"creator": "",
+			"assetFileUrl": "https://asset-prod.cdn.overdare.com/assets/world-asset/raw/live/22596100/0/build.zip",
+			"thumbnailUrl": "https://asset-prod.cdn.overdare.com/images/world-asset/raw/live/22596100/thumbnail/4b4e49ced37c49f4af0034bd8a61dc8e.png",
+			"previewUrl": "https://asset-prod.cdn.overdare.com/images/world-asset/raw/live/22596100/thumbnail/4b4e49ced37c49f4af0034bd8a61dc8e.png",
+			"createdTime": "2025.09.14-20.14.55",
+			"worldAssetType": "STATIC_MESH"
+		},
+		"22596400":
+		{
+			"bIsActive": false,
+			"contentId": "22596400",
+			"name": "WaitingRoom_8",
+			"packageName": "/Asset/TempImportedAssetDir/WaitingRoom_Cube_002",
+			"creator": "",
+			"assetFileUrl": "https://asset-prod.cdn.overdare.com/assets/world-asset/raw/live/22596400/0/build.zip",
+			"thumbnailUrl": "https://asset-prod.cdn.overdare.com/images/world-asset/raw/live/22596400/thumbnail/7288a2f7d76c4a5ba0efcce37672266f.png",
+			"previewUrl": "https://asset-prod.cdn.overdare.com/images/world-asset/raw/live/22596400/thumbnail/7288a2f7d76c4a5ba0efcce37672266f.png",
+			"createdTime": "2025.09.14-20.14.56",
+			"worldAssetType": "STATIC_MESH"
+		},
+		"22595400":
+		{
+			"bIsActive": false,
+			"contentId": "22595400",
+			"name": "WaitingRoom_7",
+			"packageName": "/Asset/TempImportedAssetDir/WaitingRoom_Cube_003",
+			"creator": "",
+			"assetFileUrl": "https://asset-prod.cdn.overdare.com/assets/world-asset/raw/live/22595400/0/build.zip",
+			"thumbnailUrl": "https://asset-prod.cdn.overdare.com/images/world-asset/raw/live/22595400/thumbnail/8f28ffc7b87b4ac0a6f0966c4fc7406e.png",
+			"previewUrl": "https://asset-prod.cdn.overdare.com/images/world-asset/raw/live/22595400/thumbnail/8f28ffc7b87b4ac0a6f0966c4fc7406e.png",
+			"createdTime": "2025.09.14-20.14.56",
+			"worldAssetType": "STATIC_MESH"
+		},
+		"22595300":
+		{
+			"bIsActive": false,
+			"contentId": "22595300",
+			"name": "WaitingRoom_4",
+			"packageName": "/Asset/TempImportedAssetDir/WaitingRoom_Plane",
+			"creator": "",
+			"assetFileUrl": "https://asset-prod.cdn.overdare.com/assets/world-asset/raw/live/22595300/0/build.zip",
+			"thumbnailUrl": "https://asset-prod.cdn.overdare.com/images/world-asset/raw/live/22595300/thumbnail/13a73d3e53e043a2991bd233a039f630.png",
+			"previewUrl": "https://asset-prod.cdn.overdare.com/images/world-asset/raw/live/22595300/thumbnail/13a73d3e53e043a2991bd233a039f630.png",
+			"createdTime": "2025.09.14-20.14.56",
+			"worldAssetType": "STATIC_MESH"
+		},
+		"22596200":
+		{
+			"bIsActive": false,
+			"contentId": "22596200",
+			"name": "WaitingRoom_5",
+			"packageName": "/Asset/TempImportedAssetDir/WaitingRoom_Plane_001",
+			"creator": "",
+			"assetFileUrl": "https://asset-prod.cdn.overdare.com/assets/world-asset/raw/live/22596200/0/build.zip",
+			"thumbnailUrl": "https://asset-prod.cdn.overdare.com/images/world-asset/raw/live/22596200/thumbnail/8c8f38aee13e4d0f977864a7c41c9f6f.png",
+			"previewUrl": "https://asset-prod.cdn.overdare.com/images/world-asset/raw/live/22596200/thumbnail/8c8f38aee13e4d0f977864a7c41c9f6f.png",
+			"createdTime": "2025.09.14-20.14.56",
+			"worldAssetType": "STATIC_MESH"
+		},
+		"22595200":
+		{
+			"bIsActive": false,
+			"contentId": "22595200",
+			"name": "WaitingRoom_2",
+			"packageName": "/Asset/TempImportedAssetDir/WaitingRoom_Cylinder_002",
+			"creator": "",
+			"assetFileUrl": "https://asset-prod.cdn.overdare.com/assets/world-asset/raw/live/22595200/0/build.zip",
+			"thumbnailUrl": "https://asset-prod.cdn.overdare.com/images/world-asset/raw/live/22595200/thumbnail/501eb9dc109943f786cb6040561a532d.png",
+			"previewUrl": "https://asset-prod.cdn.overdare.com/images/world-asset/raw/live/22595200/thumbnail/501eb9dc109943f786cb6040561a532d.png",
+			"createdTime": "2025.09.14-20.14.56",
+			"worldAssetType": "STATIC_MESH"
+		},
+		"22595500":
+		{
+			"bIsActive": false,
+			"contentId": "22595500",
+			"name": "WaitingRoom_9",
+			"packageName": "/Asset/TempImportedAssetDir/WaitingRoom_Cube_001",
+			"creator": "",
+			"assetFileUrl": "https://asset-prod.cdn.overdare.com/assets/world-asset/raw/live/22595500/0/build.zip",
+			"thumbnailUrl": "https://asset-prod.cdn.overdare.com/images/world-asset/raw/live/22595500/thumbnail/d3bf299dc18443978330cda8364ed40a.png",
+			"previewUrl": "https://asset-prod.cdn.overdare.com/images/world-asset/raw/live/22595500/thumbnail/d3bf299dc18443978330cda8364ed40a.png",
+			"createdTime": "2025.09.14-20.14.56",
+			"worldAssetType": "STATIC_MESH"
+		},
+		"22596300":
+		{
+			"bIsActive": false,
+			"contentId": "22596300",
+			"name": "WaitingRoom_6",
+			"packageName": "/Asset/TempImportedAssetDir/WaitingRoom_Cylinder_001",
+			"creator": "",
+			"assetFileUrl": "https://asset-prod.cdn.overdare.com/assets/world-asset/raw/live/22596300/0/build.zip",
+			"thumbnailUrl": "https://asset-prod.cdn.overdare.com/images/world-asset/raw/live/22596300/thumbnail/08f39f2d480b4471bb5448546dc5fc5e.png",
+			"previewUrl": "https://asset-prod.cdn.overdare.com/images/world-asset/raw/live/22596300/thumbnail/08f39f2d480b4471bb5448546dc5fc5e.png",
+			"createdTime": "2025.09.14-20.14.56",
+			"worldAssetType": "STATIC_MESH"
+		},
+		"22595600":
+		{
+			"bIsActive": true,
+			"contentId": "22595600",
+			"name": "WaitingRoom",
+			"packageName": "WaitingRoom",
+			"creator": "",
+			"assetFileUrl": "https://asset-prod.cdn.overdare.com/assets/world-asset/raw/live/22595600/0/build.zip",
+			"thumbnailUrl": "https://asset-prod.cdn.overdare.com/images/world-asset/raw/live/22595600/thumbnail/63f0121285df4da196204968b30f4ff4.png",
+			"previewUrl": "https://asset-prod.cdn.overdare.com/images/world-asset/raw/live/22595600/thumbnail/63f0121285df4da196204968b30f4ff4.png",
+			"createdTime": "2025.09.14-20.15.00",
+			"worldAssetType": "MODEL"
+		}
+	}
+}

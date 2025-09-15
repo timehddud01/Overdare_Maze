@@ -1,0 +1,6 @@
+/User/Maze_Test
+/User/Lua/Script
+/User/Lua/LocalScript
+/User/metadata
+/User/Maze_Test
+/User/WorldAssetList

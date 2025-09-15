@@ -1,0 +1,40 @@
+{
+	"arguments": [
+		{
+			"fieldName": "MapDLC",
+			"option": ""
+		},
+		{
+			"fieldName": "IoStore",
+			"option": ""
+		},
+		{
+			"fieldName": "DisableFrameTraceCapture",
+			"option": ""
+		},
+		{
+			"fieldName": "cook",
+			"option": ""
+		},
+		{
+			"fieldName": "CookRootDirName",
+			"option": "User"
+		},
+		{
+			"fieldName": "UploadResults",
+			"option": "false"
+		},
+		{
+			"fieldName": "UGCContent",
+			"option": "true"
+		},
+		{
+			"fieldName": "Map",
+			"option": "/User/Maze_Test"
+		},
+		{
+			"fieldName": "ContentId",
+			"option": "2119"
+		}
+	]
+}
