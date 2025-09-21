@@ -1,39 +1,71 @@
-﻿-- Roblox 서비스를 변수로 가져오기
-local Players = game:GetService("Players")
-local RunService = game:GetService("RunService")
-local Workspace = game:GetService("Workspace")
+﻿---- [1] 스크립트 파일이 실행되는지 확인
+--print("1.Start Script")
 
--- 로컬 플레이어와 카메라 객체를 변수에 저장
-local player = Players.LocalPlayer
-local Camera = Workspace.CurrentCamera
+--local RunService = game:GetService("RunService")
+--local Players = game:GetService("Players")
 
--- 스크립트가 시작될 때 캐릭터를 즉시 가져오거나, 없다면 생성될 때까지 기다림
-local Character = player.Character or player.CharacterAdded:Wait()
+--local Camera = workspace.CurrentCamera
+--Camera.CameraType = Enum.CameraType.Scriptable
 
--- 플레이어가 죽었다가 부활할 경우를 대비해 캐릭터 변수를 업데이트
-player.CharacterAdded:Connect(function(newCharacter)
-	Character = newCharacter
-end)
+--local localPlayer = Players.LocalPlayer
+--local character = localPlayer.Character or localPlayer.CharacterAdded:Wait()
 
--- 카메라 렌더링은 매 프레임 실행되어야 하므로 RenderStepped에 연결
-RunService.RenderStepped:Connect(function()
-	-- 캐릭터와 HumanoidRootPart가 존재하는지 항상 확인 (오류 방지)
-	if Character and Character:FindFirstChild("HumanoidRootPart") then
-		
-		-- 💡 여기에서 카메라 위치를 원하는 대로 조절하세요!
-		-- Vector3.new(X, Y, Z)
-		-- X: 좌우 (+: 오른쪽, -: 왼쪽)
-		-- Y: 상하 (+: 위, -: 아래)
-		-- Z: 앞뒤 (+: 뒤쪽, -: 앞쪽)
-		local cameraOffset = Vector3.new(0, 10, 25)
-		
-		-- 캐릭터의 위치와 오프셋을 더해 최종 카메라 위치를 계산
-		local rootPart = Character.HumanoidRootPart
-		local cameraPosition = rootPart.Position + cameraOffset
-		
-		-- [핵심] 카메라가 계산된 위치(cameraPosition)에 있으면서,
-		-- 항상 캐릭터의 중심(rootPart.Position)을 바라보도록 설정
-		Camera.CameraType = Enum.CameraType.Scriptable
-		Camera.CFrame = CFrame.new(cameraPosition, rootPart.Position)
-	end
-end)
+---- [2] 캐릭터를 성공적으로 찾았는지 확인
+--if character then
+    --print("2. Successed finding character: " .. character.Name)
+--else
+    --print("2.Failed finding character")
+--end
+
+---- 캐릭터 리스폰 처리
+--local function onCharacterAdded(newCharacter)
+    --character = newCharacter
+    --print("New character spawned: " .. newCharacter.Name)
+--end
+
+--localPlayer.CharacterAdded:Connect(onCharacterAdded)
+
+---- 디버그 카운터 추가
+--local debugCounter = 0
+
+---- 매 프레임 실행되는 RenderStepped
+--RunService.RenderStepped:Connect(function()
+    --debugCounter = debugCounter + 1
+    
+    ---- 5초마다 디버그 정보 출력 (약 300프레임마다)
+    --if debugCounter % 300 == 1 then
+        --print("3. RenderStepped running... Frame:", debugCounter)
+    --end
+    
+    ---- 캐릭터가 존재하고, 게임 세계(Workspace) 안에 있는지 확인
+    --if character and character.Parent then
+        --local rootPart = character:FindFirstChild("HumanoidRootPart")
+        --if rootPart then
+            --if debugCounter % 300 == 1 then
+                --print("4. HumanoidRootPart found at:", rootPart.Position)
+                --print("5. Camera type:", Camera.CameraType)
+            --end
+            
+            ---- [3] 카메라 위치 계산 및 적용 (lookAt 방식 사용)
+            --local offset = Vector3.new(0, 5, 10)
+            --local cameraPos = rootPart.Position + offset
+            
+            ---- CFrame.lookAt을 사용하여 캐릭터를 바라보도록 설정
+            --Camera.CFrame = CFrame.lookAt(cameraPos, rootPart.Position)
+            
+            --if debugCounter % 300 == 1 then
+                --print("6. Camera moved to:", Camera.CFrame.Position)
+            --end
+        --else
+            --if debugCounter % 300 == 1 then
+                --print("HumanoidRootPart not found in character:", character.Name)
+            --end
+        --end
+    --else
+        --if debugCounter % 300 == 1 then
+            --print("4. Character lost or not in workspace")
+        --end
+        ---- 현재 캐릭터 상태 업데이트
+        --character = localPlayer.Character
+    --end
+--end)	
